@@ -1,6 +1,6 @@
 export default function PrivacyPage() {
     return (
-      <section className="mx-auto w-full max-w-4xl">
+      <section className="mx-auto w-full max-w-4xl py-10">
         <div className="rounded-3xl border border-zinc-200/70 bg-white/70 p-6 shadow-xl shadow-zinc-950/[0.04] backdrop-blur-xl dark:border-zinc-800/70 dark:bg-zinc-950/40 dark:shadow-black/40 sm:p-10">
           <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
