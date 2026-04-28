@@ -135,11 +135,23 @@ export default function ClientIntakeForm() {
 
   return (
     <form
-      onSubmit={handleSubmit}
-      className="relative mx-auto w-full max-w-7xl"
-    >
-      <div className="grid justify-items-center gap-6 lg:justify-items-stretch lg:grid-cols-[360px_1fr] lg:gap-10">
-        {/* Left rail (desktop) */}
+    onSubmit={handleSubmit}
+    className="flex justify-center "
+  >
+    <div className="
+      w-full 
+      max-w-[344px] 
+      sm:max-w-md 
+      md:max-w-2xl 
+      lg:max-w-6xl 
+      grid 
+      justify-items-center 
+      gap-6 
+      lg:justify-items-stretch 
+      lg:grid-cols-[360px_1fr] 
+      lg:gap-10
+    ">
+       
         <aside className="hidden lg:block">
           <div className="sticky top-10 space-y-6">
             <div className="rounded-3xl border border-zinc-200/70 bg-white/70 p-6 shadow-sm backdrop-blur-xl dark:border-zinc-800/70 dark:bg-zinc-950/40">
@@ -246,7 +258,13 @@ export default function ClientIntakeForm() {
         </aside>
 
         {/* Main panel */}
-        <section className="w-full max-w-[720px] rounded-3xl border border-zinc-200/70 bg-white/70 shadow-xl shadow-zinc-950/[0.04] backdrop-blur-xl dark:border-zinc-800/70 dark:bg-zinc-950/40 dark:shadow-black/40 lg:max-w-none">
+        <section className="  w-full 
+  max-w-[320px] 
+  mx-auto 
+  rounded-3xl 
+
+  sm:max-w-2xl 
+  lg:max-w-none border border-zinc-200/70 bg-white/70 shadow-xl shadow-zinc-950/[0.04] backdrop-blur-xl dark:border-zinc-800/70 dark:bg-zinc-950/40 dark:shadow-black/40 ">
           {/* Top bar */}
           <div className="border-b border-zinc-200/60 px-5 py-5 dark:border-zinc-800/60 sm:px-8">
             <div className="flex flex-wrap items-center justify-between gap-3">
