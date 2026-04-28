@@ -148,7 +148,7 @@ export default function ClientIntakeForm() {
       justify-items-center 
       gap-6 
       lg:justify-items-stretch 
-      lg:grid-cols-[360px_1fr] 
+      lg:grid-cols-[370px_1fr] 
       lg:gap-10
     ">
        
@@ -259,12 +259,12 @@ export default function ClientIntakeForm() {
 
         {/* Main panel */}
         <section className="  w-full 
-  max-w-[320px] 
+  max-w-[340px] 
   mx-auto 
   rounded-3xl 
 
   sm:max-w-2xl 
-  lg:max-w-none border border-zinc-200/70 bg-white/70 shadow-xl shadow-zinc-950/[0.04] backdrop-blur-xl dark:border-zinc-800/70 dark:bg-zinc-950/40 dark:shadow-black/40 ">
+  lg:max-w-none border border-zinc-200/70  shadow-xl shadow-zinc-950/[0.04] backdrop-blur-xl dark:border-zinc-800/70 dark:bg-zinc-950/40 dark:shadow-black/40 ">
           {/* Top bar */}
           <div className="border-b border-zinc-200/60 px-5 py-5 dark:border-zinc-800/60 sm:px-8">
             <div className="flex flex-wrap items-center justify-between gap-3">
